@@ -1,0 +1,6 @@
+/* Màu cho mục đang active */
+.nav-link.active {
+    color: #ffc107 !important;
+    font-weight: bold;
+    border-bottom: 2px solid #ffc107;
+}
