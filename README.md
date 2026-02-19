@@ -24,26 +24,3 @@ An advanced, full-stack restaurant management system integrating E-commerce, a P
 * **Backend:** Laravel (PHP), RESTful APIs, MySQL
 * **AI/ML Service:** Python, FastAPI, XGBoost, Pandas
 * **Payment Gateway:** VNPAY Sandbox
-
-
-1. Backend Setup (Laravel)
-
-cd backend
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate --seed
-php artisan serve
-
-2. Frontend Setup (React)
-
-cd frontend
-npm install
-npm run dev
-
-3. AI Service Setup (Python)
-
-cd ml_service
-pip install -r requirements.txt
-.\venv\Scripts\activate
-uvicorn api_service:app --port 8001 --reload
